@@ -1,4 +1,4 @@
-import { UserCardController } from "./UserCard/UserCardController";
+import { UserCardController } from "./UsersCard/UserCardController";
 
 export const ComponentsManager = () => {
   return (

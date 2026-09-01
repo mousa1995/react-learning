@@ -1,4 +1,4 @@
-import { UserCard } from "./UserCard";
+import { UserList } from "./UserList";
 
 export const UserCardController = () => {
   const users = [
@@ -6,12 +6,14 @@ export const UserCardController = () => {
       name: "Ali",
       age: 25,
       role: "Developer",
+      id: "1",
     },
     {
       name: "Sara",
       age: 22,
       role: "Designer",
+      id: "2",
     },
   ];
-  return <UserCard users={users} />;
+  return <UserList users={users} />;
 };
