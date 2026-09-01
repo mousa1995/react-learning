@@ -1,10 +1,17 @@
 import { UserCard } from "./UserCard";
 
 export const UserCardController = () => {
-  const data = {
-    name: "Ali",
-    age: 25,
-    role: "Developer",
-  };
-  return <UserCard name={data.name} age={data.age} role={data.role} />;
+  const users = [
+    {
+      name: "Ali",
+      age: 25,
+      role: "Developer",
+    },
+    {
+      name: "Sara",
+      age: 22,
+      role: "Designer",
+    },
+  ];
+  return <UserCard users={users} />;
 };
