@@ -1,7 +1,7 @@
-type User = {
-  name: string;
-  age: number;
-};
+// type User = {
+//   name: string;
+//   age: number;
+// };
 
 const data = '{"name":"Ali","age":"twenty"}';
 
